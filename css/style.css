@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #f1e9e9;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  width: 300px;
+  height: 500px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+
+.container form {
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.container form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 8px 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.container form i {
+  padding: 8px 10px;
+}
+
+.container .products .pbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  padding-top: 15px;
+}
+
+.container .products .pbox .products-image img {
+  width: 70px;
+}
+
+.container .products .pbox .products-details {
+  padding-left: 15px;
+}
+
+.container .products .pbox .products-details h3 {
+  font-size: 16px;
+}
+
+.container .products .pbox .products-details h4 {
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
